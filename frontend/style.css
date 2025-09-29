@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f9fc;
+}
+
+header {
+  background: #002b5c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.consultation {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background: white;
+}
+
+#startBtn {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#chat {
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#messages {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.user { background: #d1e7ff; }
+.bot { background: #e2ffe1; }
